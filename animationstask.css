@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: rgba(11, 0, 0, 0.548);
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    position: sticky;
+    top: 0px;
+    width: 98%;
+    color: white;
+}
+footer{
+    background-color:  rgba(11, 0, 0, 0.548); 
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    color:white;
+    padding: 20px;
+    width: 98%;
+    bottom: 0px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+ .body{
+    position: relative;
+    background-color: lightcoral;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    width: 98%;
+    height: 70vh;
+    padding: 20px;
+ }
+.container{
+    border: 1px solid;
+    width: 30em;
+    height: 300px;
+    margin-left: 50px;
+    padding: 20px;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+   
+}
+.container:hover{
+   border: 1px solid;
+   transform: rotateZ(15deg);
+   background-color: lightblue;
+}
+.img img{
+   transition-property: all;
+   transition-duration: 5s;
+   transition-timing-function: ease-in-out;
+ }
+ .img:hover img{
+   margin-left: 30px;
+   border-radius: 50%;
+   translate: 100px;
+ }
+
+ .container1{
+    border: 1px solid;
+    width: 30em;
+    height: 300px;
+    margin-left: 150px;
+    padding: 20px;
+    right: 0px;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+ }
+ .container1:hover{
+    background-color: lightgreen;
+    border: 1px solid;
+    transform: scale(1.2,1.1);
+    resize: both;
+    overflow: auto;
+ }
+ .img1:hover{
+    width: 400px;
+ }
+
+ .container2{
+    border: 1px solid;
+    width: 500px;
+    height: 50px;
+    padding: 20px;
+    transition-duration: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    margin-left: 50px;
+
+ }
+ .container2:hover{
+    border: 1px solid;
+    transform: skewY(15deg);
+    opacity:0.5;
+ }
+
+ .container3{
+    border: 1px solid;
+    width: 500px;
+    height: 50px;
+    padding: 20px;
+    transition-duration: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    margin-left: 100px;
+
+ }
+.container3{
+    border: 1px solid;
+}
+.container3:hover{
+   transform: translateX(20px) ;
+}
+.para:hover{
+    color: red;
+    /* transform: translateX(20px) ; */
+}
+
